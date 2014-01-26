@@ -1,54 +1,139 @@
-
 * {
-	margin:0px;
-	padding:0px;
+	margin: 0px;
+	padding: 0px;
 	font-family: 'Roboto', sans-serif;
-} 
+}
 body {
 	background-color: #f0f0f0;
-	}
+}
 .container {
 	width: 1100px;
 	margin: auto;
-	padding-bottom:10px;
 	background-color: #FFFFFF;
 	overflow: hidden;
 	box-shadow: 0px 0px 4px 3px rgb(223, 223, 223);
-	}
+}
 header {
 	width: 100%;
-	float:left;
-	padding:10px 19px;;
-	background-color:#333;
-	font-size:22px;
-	color:white;
-	}
-.subContainer{
+	float: left;
+	padding: 10px 19px;
+	;
+	background-color: #333;
+	font-size: 22px;
+	color: white;
+}
+.subContainer {
 	height: initial;
-	background-color:initial;
-	width: 100%;
-	float:left;
-	padding:10px;
-	color:black;
-	}
-form{
-	margin: auto;	
-	}
+	background-color: initial;
+	width: 615px;
+	float: left;
+	padding: 20px;
+	color: black;
+}
+form {
+	margin: auto;
+border-right: solid 1px #bebebe;
+float: left;
+width: 615px;
+}
 label {
-	font-size:14px;
-	}
+	font-size: 14px;
+}
 p {
+	margin: 3px;
+	width: 300px;
+	float: left;
+}
+
+button, input[type=submit] {
+	padding: 3px 10px; border:none;
+}
+.inSuper {padding: 10px 25px;
+float: right;
+margin-right: 16px;
+background-color: rgb(0, 95, 197);
+color: white;
+font-weight: bold;
+border: none;
+}
+input {
+	border: solid 1px #bebebe;
+	padding: 3px;
+}
+.data {
+	font-size: 14px;
+	margin: 10px;
+}
+table {
+	text-align: left;
+	border-collapse: collapse;
+	border: solid 1px #CCC;
+	margin-top: 25px;
+}
+th {
+	padding: 5px;
+	background-color: #f0f0f0;
+}
+td {
+	padding: 5px;
+	width: 120px;
+}
+label {
+	width: 120px;
+	text-align: right;
+	float: left;
+	padding: 0px 5px;
+	font-size: 12px;
+	line-height: 25px;
+}
+fieldset {
+	border: none;
+	border-top: solid 1px rgb(200,200,200);
+	color: #000000;
+	font-size: 13px;
+	float: left;
+	clear: both;
+	padding-bottom: 6px;
+	margin-top: 12px;
+	width:615px;
+}
+legend {
+	margin-left: 0px;
+	font-weight: bold;
+	color: rgb(0, 95, 197);
+	padding: 0px 3px;
+	font-size:20px;
+	margin-bottom:10px;
+}
+.inPublic {
+	border: solid 1px #FFFFFF;
+	padding: 3px;
+	background-color: white;
+	border-bottom: solid 1px #bebebe;
+	font-weight: bold;
+}
+.binfo {background-color: rgb(255, 255, 173);
+font-size: 32px;
+clear: both;
+border: solid 1px yellow;
+padding: 10px;
+border-radius: 10px;}
+input[type=checkbox] {
 	margin:10px;
 	}
-button, input[type=submit] {
-	padding:0px 10px;
+.labl {width:300px;
+height:15px;}
+aside {
 	
-	}
-.data {font-size:14px; margin:10px;}
+	width: 401px;
+height: 400px;
+float: right;
 
-table {text-align:left;
-border-collapse:collapse;
-border:solid 1px #CCC
-}
-th {padding:5px; background-color:#f0f0f0;}
-td {padding:5px; width:120px; }
+padding: 20px;
+	}
+.ac {margin-top:20px;}
+
+.inLocal {float:left;
+margin-top:20px;}
+
+select {margin:10px;}
